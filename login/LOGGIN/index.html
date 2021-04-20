@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cabecera.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+ 
+    <style>
+        video{
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+
+            z-index: -100;
+
+            background-size: cover;
+        }
+        .capa{
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            background-color: rgba(0,0,0,0.5);
+        }
+    </style>
+  </head>
+  <body>
+      
+    
+    <video src="IMG/video.mp4" autoplay preload muted loop></video>
+
+    <div class="capa">
+        <center>
+            <br><br>
+            <h1 style="color:#ffffff">BIENVENIDO A ROCKOLA</h1>
+        </center
+</head>
+<body >
+
+
+    </header>
+
+   <form action="validar.php" method="post">
+   <h1 class="animate__animated animate__backInLeft">Accede</h1>
+   <p>Usuario <input type="text" placeholder="ingrese su nombre" name="usuario"></p>
+   <p>Contraseña <input type="password" placeholder="ingrese su contraseña" name="contraseña"></p>
+   <input type="submit" value="Ingresar">
+   
+   <a href="registrate.html">No tienes cuenta?</a>
+   
+   </form> 
+</body>
+</html>
