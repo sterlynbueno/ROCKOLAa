@@ -1,0 +1,116 @@
+@import url(css/banner.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap'); 
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.logo {
+    width: 20%;
+    height: 20%;
+}
+
+h1{
+    front-size: 2rem;
+    line-height: 1.3em;
+    color: white;
+}
+
+p{
+    margin-bottom: 1.6em;
+    color: white;
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    color: white;
+}
+
+.header{
+    background: black;
+    color: white;
+    padding: 2rem 0;
+
+    
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.navigation ul li a:hover {
+    background: #4a4a4a;
+}
+
+
+
+.footer{
+    background: #f2f2f2;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.footer p {
+    color: black;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.image-holder{
+    
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.image-holder:hover{
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+.image-holder img {
+    border-radius: 5px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.image-holder img:hover{
+    filter: grayscale(0);
+}

@@ -1,0 +1,36 @@
+#banner {
+margin-top: 0px;
+position: relative;
+}
+
+#banner img {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+#banner .contenedor {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-10%);
+    color: white;
+}
+
+#banner h2 {
+    font-size: 30px;
+}
+
+#banner a {
+    display: block;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid white;
+}
+
+#banner a:hover {
+    background: #4a4a4a;
+}
